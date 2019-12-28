@@ -13,6 +13,7 @@
           <multiselect
             v-model="rightPerson"
             :options="people"
+            :hideSelected="true"
             label="name"
             @input="chooseWinner('height')"
             @search-change="search"
